@@ -1,0 +1,14 @@
+Установить Docker и Remote-Conteiners Расширение
+Dockerfile create
+.....
+Main.java create
+
+Собрать:
+docker build [Path]
+
+docker images
+
+For delite docker image, need insert into cmd: 
+docker image rm [id]
+
+docker run -p 3001:80 [id images]
